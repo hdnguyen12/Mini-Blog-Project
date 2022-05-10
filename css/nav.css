@@ -1,0 +1,42 @@
+nav div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e3e42;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav div ul li {
+    display: inline;
+    float: left;
+}
+
+nav div ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav div ul li a:hover {
+    background-color: #1e1e1e;
+}
+
+.active {
+    background-color: #007acc;
+}
+
+nav div ul li {
+    border-right: 1px solid #bbb;
+}
+
+
+nav div ul li:last-child {
+    border-right: none;
+}
